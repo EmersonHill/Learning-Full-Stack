@@ -1,0 +1,5 @@
+--Needs to be run
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+--Not allowed to edit system path
+./node_modules/.bin/
